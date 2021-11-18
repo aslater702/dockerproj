@@ -4,7 +4,7 @@ setup:
 	python3 -m venv ~/.dockerproj
 
 install:
-	pip install --upgrade pip &&/
+	sudo pip install --upgrade pip &&/
 		pip install -r requirements.txt
 
 test:
